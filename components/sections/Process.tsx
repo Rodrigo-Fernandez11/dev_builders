@@ -3,26 +3,30 @@ import { Reveal } from "@/components/ui/Reveal";
 
 const steps = [
   {
-    title: "1. Conversamos",
-    description: "Nos contas sobre tu negocio y que necesitas. Te asesoramos sin compromiso.",
+    title: "1. Asesoria gratuita",
+    description: "Nos cuentas tu idea, objetivos y presupuesto. Te orientamos sin costo ni compromiso.",
   },
   {
-    title: "2. Planificamos",
-    description: "Te mostramos como va a quedar tu sitio y acordamos precio y tiempo de entrega.",
+    title: "2. Propuesta clara",
+    description: "Definimos el tipo de sitio ideal para tu negocio, alcance, precio y tiempos de entrega.",
   },
   {
-    title: "3. Creamos",
-    description: "Disenamos y desarrollamos tu sitio. Te vamos mostrando avances.",
+    title: "3. Diseno y desarrollo",
+    description: "Construimos tu sitio y te mostramos avances para validar que todo quede como esperas.",
   },
   {
-    title: "4. Lanzamos",
-    description: "Dejamos todo funcionando y te ensenamos a usarlo. Quedas listo para vender.",
+    title: "4. Publicacion y soporte",
+    description: "Publicamos tu web, dejamos todo funcionando y te acompanamos en el primer mes.",
   },
 ];
 
 export function Process() {
   return (
-    <Section id="process" title="Como trabajamos" subtitle="Simple y claro, sin complicaciones. Asi es nuestro proceso.">
+    <Section
+      id="process"
+      title="Como trabajamos"
+      subtitle="Un proceso simple para que avances con claridad desde la asesoria inicial hasta la publicacion."
+    >
       <div className="grid gap-4 md:grid-cols-2">
         {steps.map((step, index) => (
           <Reveal key={step.title} delay={index * 120}>

@@ -7,31 +7,36 @@ export const faqItems: FaqItem[] = [
   {
     question: "Cuanto cuesta hacer mi sitio web?",
     answer:
-      "Depende de lo que necesites. Una pagina web basica arranca desde $300, una tienda online desde $800. Te hacemos un presupuesto sin compromiso.",
+      "Trabajamos con 3 opciones principales: Landing Page desde $150.000, Pagina Web para Negocio desde $280.000 y Tienda Online desde $450.000.",
   },
   {
     question: "Cuanto tiempo tarda?",
     answer:
-      "Una pagina web simple toma 1 a 2 semanas. Una tienda online puede tomar de 2 a 3 semanas. Te mantenemos informado todo el tiempo.",
+      "Depende del tipo de proyecto: Landing Page entre 3 y 5 dias, Web para Negocio entre 5 y 10 dias, y Tienda Online entre 7 y 14 dias.",
+  },
+  {
+    question: "Como se realiza el pago?",
+    answer:
+      "La modalidad es en 2 pagos: 50% al iniciar y 50% al finalizar y entregar el sitio funcionando.",
   },
   {
     question: "Necesito conocimientos tecnicos para usar mi sitio?",
     answer:
-      "No. Todo esta hecho para que sea facil de usar. Ademas te damos una capacitacion para que puedas agregar productos, fotos o hacer cambios tu mismo.",
+      "No. Dejamos todo preparado para que sea facil de usar y te guiamos para que puedas actualizar textos, imagenes o productos cuando lo necesites.",
   },
   {
-    question: "El dominio y hosting estan incluidos?",
+    question: "Incluyen asesoria gratuita antes de contratar?",
     answer:
-      "Si, en nuestros paquetes basicos incluimos dominio (.com o .com.ar) y hosting por el primer año. Despues tiene un costo anual muy economico.",
+      "Si. Antes de empezar te damos una asesoria gratuita para entender tu negocio y recomendarte la mejor solucion segun tus objetivos y presupuesto.",
   },
   {
-    question: "Que pasa si tengo un problema con mi sitio?",
+    question: "Que pasa si necesito cambios luego de publicar?",
     answer:
-      "Ofrecemos soporte y mantenimiento. Si contratas un paquete con mantenimiento incluido, resolvemos cualquier problema rapido. Sino, podes contratar soporte cuando lo necesites.",
+      "Todos los proyectos incluyen 1 mes de soporte gratuito. Luego puedes contratar un plan de mantenimiento opcional segun tu necesidad.",
   },
   {
-    question: "Puedo vender con Mercado Pago o transferencia?",
+    question: "Puedo contactarlos por WhatsApp?",
     answer:
-      "Si, integramos Mercado Pago, transferencias bancarias, o el medio de pago que uses. Tus clientes pagan seguro y vos recibes el dinero directo.",
+      "Si, puedes escribirnos por WhatsApp para recibir asesoria gratuita y una propuesta personalizada para tu proyecto.",
   },
 ];

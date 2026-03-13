@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
+import { siteConfig } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -15,13 +16,13 @@ export function Hero() {
             Tu negocio merece estar online
           </p>
           <h1 className="text-4xl font-semibold leading-tight tracking-tight text-zinc-900 md:text-5xl">
-            Creamos tu presencia digital para que vendas mas y te encuentren en Google.
+            Creamos sitios web modernos para que tu negocio venda mas y genere confianza.
           </h1>
           <p className="mt-6 max-w-xl text-zinc-700">
-            Tiendas online, paginas web y posicionamiento en Google para negocios locales, emprendedores y comercios.
+            Te ayudamos a elegir la mejor opcion con una asesoria gratuita y un plan claro segun tu presupuesto.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="#contact">Consultar precio</Button>
+            <Button href={siteConfig.whatsappUrl}>Asesoria gratuita por WhatsApp</Button>
             <Button href="#services" variant="ghost">
               Ver servicios
             </Button>
@@ -31,9 +32,9 @@ export function Hero() {
           <div className="rounded-xl border border-teal-100 bg-white/90 p-6 shadow-lg shadow-teal-100/30">
             <p className="text-sm font-medium text-teal-800">Que obtienes</p>
             <ul className="mt-4 space-y-3 text-zinc-800">
-              <li>✓ Sitio web profesional que funciona en todos los dispositivos</li>
-              <li>✓ Mas clientes te encuentran en Google</li>
-              <li>✓ Tu negocio abierto 24/7 para vender online</li>
+              <li>✓ Asesoria gratuita para definir la mejor solucion digital</li>
+              <li>✓ Presupuesto claro con modalidad de pago en 2 partes</li>
+              <li>✓ Acompanamiento desde la idea hasta la publicacion del sitio</li>
             </ul>
           </div>
         </Reveal>

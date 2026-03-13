@@ -1,9 +1,9 @@
 const links = [
   { href: "#services", label: "Servicios" },
+  { href: "#process", label: "Proceso" },
   { href: "#cases", label: "Proyectos" },
-  { href: "#packages", label: "Precios" },
   { href: "#faq", label: "Preguntas" },
-  { href: "#contact", label: "Contacto" },
+  { href: "#contact", label: "Asesoria gratis" },
 ];
 
 export function Navbar() {

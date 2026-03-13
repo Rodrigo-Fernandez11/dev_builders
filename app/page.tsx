@@ -5,7 +5,6 @@ import { CaseStudies } from "@/components/sections/CaseStudies";
 import { Cta } from "@/components/sections/Cta";
 import { Faq } from "@/components/sections/Faq";
 import { Hero } from "@/components/sections/Hero";
-import { Packages } from "@/components/sections/Packages";
 import { Process } from "@/components/sections/Process";
 import { Services } from "@/components/sections/Services";
 
@@ -16,9 +15,8 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
-        <CaseStudies />
-        <Packages />
         <Process />
+        <CaseStudies />
         <Faq />
         <Cta />
       </main>
