@@ -14,6 +14,7 @@ export type SupportPlan = {
   name: string;
   price: string;
   description: string;
+  valueProposition: string;
   includes: string[];
 };
 
@@ -25,6 +26,7 @@ export const sharedIncludes: string[] = [
   "Adaptacion completa a celulares y tablets",
   "Optimizacion basica de velocidad",
   "Publicacion del sitio web online",
+  "Dominio y hosting incluidos por 1 ano",
 ];
 
 export const webServices: WebService[] = [
@@ -86,31 +88,46 @@ export const webServices: WebService[] = [
 ];
 
 export const supportIntro =
-  "Todos los proyectos incluyen 1 mes de soporte gratuito despues de la entrega. Luego puedes contratar un plan opcional para seguir con asistencia tecnica y mejoras.";
+  "Tu web no termina cuando se publica: necesita ajustes, seguimiento y mejoras para seguir generando resultados. Con soporte, evitas caidas, ahorras tiempo y mantienes una imagen profesional frente a tus clientes.";
+
+export const supportReasons: string[] = [
+  "Evitas perder ventas por errores o caidas del sitio",
+  "Resuelves cambios urgentes sin frenar tu operacion",
+  "Mantienes tu web actualizada para seguir convirtiendo",
+  "Tienes ayuda tecnica de confianza sin contratar personal interno",
+];
+
+export const supportGuarantee =
+  "Todos los proyectos incluyen 1 mes de soporte gratuito despues de la entrega para acompanarte en el arranque, junto con configuracion inicial de hosting y dominio.";
 
 export const supportPlans: SupportPlan[] = [
   {
     id: "soporte-basico",
     name: "Plan Soporte Basico",
     price: "$20.000 por mes",
-    description: "Ideal para quienes quieren asistencia tecnica cuando la necesiten.",
+    description: "Ideal para mantener tu sitio estable y contar con ayuda tecnica cuando aparezca cualquier problema.",
+    valueProposition: "Tranquilidad mensual: tu web sigue funcionando y tu negocio no se detiene.",
     includes: [
       "Soporte tecnico ante cualquier problema con el sitio",
       "Pequenos cambios de texto o imagenes",
       "Asesoramiento para actualizar tu web",
+      "Acompanamiento en renovacion de hosting y dominio",
+      "Respuesta prioritaria en consultas de soporte",
     ],
   },
   {
     id: "soporte-mejoras",
     name: "Plan Soporte y Mejoras",
     price: "$40.000 por mes",
-    description: "Ideal para negocios que quieren seguir mejorando su sitio con el tiempo.",
+    description: "Ideal para negocios que quieren escalar resultados y mejorar su web de forma continua.",
+    valueProposition: "No solo mantienes tu sitio: lo mejoras mes a mes para vender mas.",
     includes: [
       "Todo lo del plan basico",
       "Pequenas mejoras en el sitio",
       "Optimizacion de rendimiento",
       "Incorporacion de nuevas secciones simples",
-      "Prioridad en soporte",
+      "Monitoreo preventivo de disponibilidad del hosting",
+      "Prioridad alta en soporte y mejoras",
     ],
   },
 ];

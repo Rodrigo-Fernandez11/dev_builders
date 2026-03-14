@@ -20,6 +20,11 @@ export const faqItems: FaqItem[] = [
       "La modalidad es en 2 pagos: 50% al iniciar y 50% al finalizar y entregar el sitio funcionando.",
   },
   {
+    question: "El hosting y el dominio estan incluidos?",
+    answer:
+      "Si. Incluimos dominio y hosting por 1 ano con la puesta online del proyecto. Antes de la renovacion te avisamos y te asesoramos para mantener todo activo sin interrupciones.",
+  },
+  {
     question: "Necesito conocimientos tecnicos para usar mi sitio?",
     answer:
       "No. Dejamos todo preparado para que sea facil de usar y te guiamos para que puedas actualizar textos, imagenes o productos cuando lo necesites.",

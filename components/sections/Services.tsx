@@ -6,8 +6,10 @@ import {
   customDevelopmentExamples,
   servicesIntro,
   sharedIncludes,
+  supportGuarantee,
   supportIntro,
   supportPlans,
+  supportReasons,
   webServices,
 } from "@/data/services";
 
@@ -100,6 +102,17 @@ export function Services() {
             </span>
           </div>
           <p className="mt-3 max-w-3xl text-zinc-700">{supportIntro}</p>
+          <p className="mt-3 rounded-xl border border-teal-200/80 bg-white px-4 py-3 text-sm font-medium text-teal-900">
+            {supportGuarantee}
+          </p>
+
+          <div className="mt-5 grid gap-2 sm:grid-cols-2">
+            {supportReasons.map((reason) => (
+              <p key={reason} className="rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-800">
+                {reason}
+              </p>
+            ))}
+          </div>
 
           <div className="mt-6 grid gap-5 md:grid-cols-2">
             {supportPlans.map((plan) => (
@@ -107,6 +120,9 @@ export function Services() {
                 <h4 className="text-lg font-semibold text-zinc-900">{plan.name}</h4>
                 <p className="mt-2 text-xl font-semibold text-zinc-900">{plan.price}</p>
                 <p className="mt-2 text-sm text-zinc-700">{plan.description}</p>
+                <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm font-medium text-amber-900">
+                  {plan.valueProposition}
+                </p>
                 <ul className="mt-4 space-y-1.5 text-sm text-zinc-800">
                   {plan.includes.map((item) => (
                     <li key={item} className="flex items-start gap-2">
@@ -115,6 +131,11 @@ export function Services() {
                     </li>
                   ))}
                 </ul>
+                <div className="mt-5">
+                  <Button href={siteConfig.whatsappUrl} variant="ghost">
+                    Quiero este plan
+                  </Button>
+                </div>
               </article>
             ))}
           </div>
